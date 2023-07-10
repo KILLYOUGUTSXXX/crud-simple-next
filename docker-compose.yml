@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  server:
+    image: afx-sio/server
+    build: ./json-server
+    container_name: afx-sio-server
+    ports:
+      - 5544:5544
+    networks:
+      connectors:
+        ipv4_address: 177.89.33.5
+  app:
+    image: afx-sio/app
+    build: ./app
+    container_name: afx-sio-app
+    ports:
+      - 7559:3000
+    networks:
+      connectors:
+        ipv4_address: 177.89.33.10
+    depends_on:
+      - server
+networks:
+  connectors:
+    name: afx-sio-network
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "177.89.33.0/24"
+          gateway: "177.89.33.1"
+    attachable: true

@@ -1,0 +1,140 @@
+{
+  "cash-entry": [
+    {
+      "memo": "lalalala",
+      "id": "Y8jcdSlPJC2q",
+      "createdat": 1689001719,
+      "status": true,
+      "updatedat": null
+    },
+    {
+      "memo": "apalah",
+      "status": true,
+      "id": "LchXYCJSwkCh",
+      "createdat": 1689001719,
+      "updatedat": 1689007855
+    },
+    {
+      "memo": "test2",
+      "id": "nhGzuaYuJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test3",
+      "id": "nhGzuaYuJxWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test4",
+      "id": "nh2zuaYuJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test5",
+      "id": "nhGzudsuJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test6",
+      "id": "nhGzuasXJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test7",
+      "id": "nhGzuaYuxxf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test8",
+      "id": "nhGzuazlJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test9",
+      "id": "nhGz11YuJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test10",
+      "id": "nhGzuassxuJMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "memo": "test11",
+      "id": "nhGsdo292JMWf",
+      "status": true,
+      "createdat": 1689001719,
+      "updatedat": null
+    }
+  ],
+  "cash-entry-detail": [
+    {
+      "id": "7zDtwwb2DIbzvmO1",
+      "value": 1000000,
+      "transdate": "2023-07-10",
+      "type": "IN",
+      "desc": "income",
+      "refid": "Y8jcdSlPJC2q",
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "id": "tKzfoyelCFdyqhg1",
+      "value": 70000,
+      "transdate": "2023-07-10",
+      "type": "OUT",
+      "desc": "uang minyak",
+      "refid": "Y8jcdSlPJC2q",
+      "createdat": 1689001719,
+      "updatedat": null
+    },
+    {
+      "id": "KVkBvPuZIVkhjs9t",
+      "value": 150000,
+      "transdate": "2023-07-10",
+      "type": "OUT",
+      "desc": "belanja",
+      "refid": "LchXYCJSwkCh",
+      "createdat": 1689001719,
+      "updatedat": 1689007855
+    },
+    {
+      "id": "0xaf0JZihqtpuD8w",
+      "value": 100000,
+      "transdate": "2023-07-10",
+      "type": "OUT",
+      "desc": "service ac",
+      "refid": "LchXYCJSwkCh",
+      "createdat": 1689001719,
+      "updatedat": 1689007855
+    },
+    {
+      "id": "lM4tzufa33g3yC1k",
+      "value": 300000,
+      "transdate": "2023-07-10",
+      "type": "OUT",
+      "desc": "jajan",
+      "refid": "nhGzuaYuJMWf",
+      "createdat": 1689001719,
+      "updatedat": null
+    }
+  ]
+}
